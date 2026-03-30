@@ -257,6 +257,41 @@ This tool is an educational and decision-support prototype. It is not a medical 
 - End-to-end pipeline object (preprocess + model + explainer) versioning
 - CI workflow for automated model quality checks
 
+## Original Author and Project Updates
+
+### Original Author
+
+- Harsh Patel (original project foundation, baseline pipeline, and initial implementation)
+
+### Current Maintainer and Contributor
+
+- Abuthwahir HM
+
+### Key Updates Made by Abuthwahir HM
+
+- Revamped the Streamlit application workflow, improving usability, structure, and user interaction flow
+- Integrated lifestyle-aware risk adjustments to enhance real-world relevance of predictions
+- Redesigned and improved the frontend UI/UX, making the application more intuitive and visually consistent
+- Enhanced input handling and display logic within the Streamlit interface
+- Improved project documentation for clearer setup, usage, and model interpretation
+- Refactored repository structure for better organization and open-source readability
+- Extended model workflow to support retraining and evaluation pipelines
+- Added contributor-level metadata and improved overall repository hygiene
+
+### About Model Retraining
+
+- The codebase supports retraining with both Random Forest and XGBoost using the PIMA dataset
+- Retraining commands are documented in the Training and Evaluation section
+- Evaluation workflow remains available for comparing model behavior after retraining
+
 ## License
 
-MIT License. See `LICENSE` for details.
+This repository is released under the MIT License.
+
+- Original copyright: Harsh Patel
+- Modifications and ongoing maintenance: Abuthwahir HM
+
+
+### Current Maintainer and Contributor and Owner 
+
+- Abuthwahir HM
